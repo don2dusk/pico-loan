@@ -1,0 +1,23 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "test",
+            "database": "${workspaceFolder:interest model}/model.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "test2",
+            "database": "${workspaceFolder:interest model}/model.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "test3",
+            "database": "${workspaceFolder:interest model}/model.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

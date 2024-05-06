@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "interest model"
+version = "0.1.0"
+description = ""
+authors = ["Oghenetega Eko-Brotobor"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+peewee = "^3.17.3"
+
+
+[[tool.poetry.source]]
+name = "foo"
+url = "https://mirrors.sustech.edu.cn/pypi/web/simple"
+priority = "supplemental"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
